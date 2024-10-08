@@ -1,26 +1,8 @@
-@@ -1 +1,17 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AluraBooks</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <h1>Alurabook</h1>
-</body>
-</html>
-‎reset.css
-+135
-Original file line number	Diff line number	Diff line change
-@@ -0,0 +1,135 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
+
 html,
 body,
 div,
@@ -109,6 +91,7 @@ video {
     font: inherit;
     vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -123,17 +106,21 @@ nav,
 section {
     display: block;
 }
+
 body {
     line-height: 1;
 }
+
 ol,
 ul {
     list-style: none;
 }
+
 blockquote,
 q {
     quotes: none;
 }
+
 blockquote:before,
 blockquote:after,
 q:before,
@@ -141,20 +128,8 @@ q:after {
     content: '';
     content: none;
 }
+
 table {
     border-collapse: collapse;
     border-spacing: 0;
-}
-‎styles.css
-+11
-Original file line number	Diff line number	Diff line change
-@@ -0,0 +1,11 @@
-:root {
-    --cor-de-fundo: #EBECEE;
-}
-body {
-    background-color: var(--cor-de-fundo);
-}
-h1 {
-    background-color: white;
 }
